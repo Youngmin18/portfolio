@@ -68,26 +68,27 @@ Développé avec **React**, **Vite**, **TailwindCSS** et plusieurs librairies mo
    ```
 
 5. **Déployer sur GitHub Pages**
+
    Le portfolio est déployé avec GitHub Pages.
 
-   - *** Pour déployer *** : 
+   - **Pour déployer :** 
 
       ```bash
       npm install gh-pages
       ```
-   - *** Ajouter ces scripts dans "*package.json*" ***:
+   - **Ajouter ces scripts dans "*package.json*" :**
 
       ```bash
       "scripts": {
          "predeploy": "npm run build",
          "deploy": "gh-pages -d dist"}
       ```
-   - *** Puis lance *** :
+   - **Puis lance :**
 
       ```bash
       npm run deploy
       ```
-   - *** N’oublie pas d’ajouter la configuration base dans ton vite.config.js si nécessaire *** :
+   - **N’oublie pas d’ajouter la configuration base dans ton vite.config.js si nécessaire :**
       ```bash
       // vite.config.js
       export default defineConfig({
