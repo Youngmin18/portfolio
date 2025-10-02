@@ -67,7 +67,7 @@ Développé avec **React**, **Vite**, **TailwindCSS** et plusieurs librairies mo
    npm run build
    ```
 
-5. **Déployer sur GitHub Pages**
+5. **Déployer sur GitHub Pages**  
 
    Le portfolio est déployé avec GitHub Pages.
 
